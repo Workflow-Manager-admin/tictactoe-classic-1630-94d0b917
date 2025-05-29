@@ -55,54 +55,11 @@ body {
   box-sizing: border-box;
 }
 
-.hero {
-  padding-top: 120px;
+.main-content {
+  padding-top: 100px;
   padding-bottom: 64px;
-  text-align: center;
+  min-height: calc(100vh - 80px);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
-
-.subtitle {
-  color: var(--kavia-orange);
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-
-.title {
-  font-size: 3.5rem;
-  font-weight: 600;
-  line-height: 1.2;
-  margin: 0;
-}
-
-.description {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: var(--text-secondary);
-  max-width: 600px;
-  margin-bottom: 16px;
-}
-
-.btn {
-  background-color: var(--kavia-orange);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.btn:hover {
-  background-color: #FF8B4D;
-}
-
-.btn-large {
-  padding: 12px 24px;
-  font-size: 1.1rem;
+  align-items: flex-start;
+  justify-content: center;
 }
